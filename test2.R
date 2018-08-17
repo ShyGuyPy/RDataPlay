@@ -25,14 +25,17 @@ print(my_crazy_var$apple)
 muffin <- my_crazy_var$b + my_crazy_var$apple
 print(muffin)
 
-My-stuff.df <- data.frame(
+
+My_stuff.df <- data.frame(
   my_stuff_id = c(1:3),
   my_stuff_fruit = c("Orange", "plum", "mango"),
-  my_tuff_amount = c(10, 24, 4),
+  amount = c(10, 24, 4),
+  
+  stringsAsFactors = FALSE
 )
-#as.character(my_value)
+print(My_stuff.df)
+  
 
-#print(typeof(my_data))
   
    
   
