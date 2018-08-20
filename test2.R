@@ -19,6 +19,8 @@ my_stuff_new.df <- my_stuff.df %>%
   dplyr::select(my_stuff_fruit)
 
 print(my_stuff_new.df)
+
+print("git repo home and away test")
   
 
   
