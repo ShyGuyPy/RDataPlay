@@ -1,0 +1,17 @@
+---
+title: "r_markdown_test2"
+author: "Luke Vawter"
+date: "August 22, 2018"
+output: html_document
+---
+
+this section of code will print hello world and then sum 10 and 13
+```{r}
+print("hello world")
+sum_this <- function(x,y) {
+  final.scalar <- x + y
+  return(final.scalar)
+}
+sum_this(10,3)
+```
+
