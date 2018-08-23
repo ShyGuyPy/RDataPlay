@@ -6,6 +6,10 @@ output: html_document
 ---
 this is just a place for me to play with and learn R markdown.
 
+note: working in python requires that you install the 
+reticulate package:
+package.install('reticulate') ...in R console
+
 
 the following section of python code writes a function that prints only the odd numbers in a given list
 
