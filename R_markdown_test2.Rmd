@@ -4,8 +4,26 @@ author: "Luke Vawter"
 date: "August 22, 2018"
 output: html_document
 ---
+this is just a place for me to play with and learn R markdown.
 
-this section of code will print hello world and then sum 10 and 13
+
+the following section of python code writes a function that prints only the odd numbers in a given list
+
+```{python}
+my_list =  [3,8,5,7,12]
+another_list = [3,4,6,1]
+
+def find_odd_num(the_list):
+  for i in the_list:
+      if i % 2 != 0:
+          print(i)
+  print(" ")
+          
+find_odd_num(my_list)
+find_odd_num(another_list)
+```
+
+this section of R code will print hello world and then sum 10 and 13
 ```{r}
 print("hello world")
 sum_this <- function(x,y) {
